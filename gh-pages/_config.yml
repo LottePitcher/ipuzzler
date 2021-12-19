@@ -52,6 +52,6 @@ github_username:  dylanbeattie
 #   - vendor/ruby/
 
 ## BEGIN variables that are modified by Webpack during build ##
-version: 0.1.12
-build_date: "Tue, 23 Mar 2021 14:00:11 GMT"
+version: 0.1.15.LP
+build_date: "Sun, 19 Dec 2021 15:08:35 GMT"
 ## END variables that are modified by Webpack during build ##
