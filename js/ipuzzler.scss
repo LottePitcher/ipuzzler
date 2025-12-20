@@ -4,6 +4,7 @@ $tablet-width: 640px;
 $cell-block-color: var(--ipuzzler-cell-block-color, #000);
 $cell-blank-color: var(--ipuzzler-cell-blank-color, #933);
 $cell-highlight-color: var(--ipuzzler-cell-highlight-color, #9cf);
+$cell-text-color: var(--ipuzzler-cell-text-color, canvastext);
 $clue-highlight-color: var(--ipuzzler-clue-highlight-color, #9cf);
 $clue-halflight-color: var(--ipuzzler-clue-halflight-color, #bdf);
 
@@ -152,6 +153,7 @@ div.ipuzzler {
                 top: 0;
                 bottom: 0;
                 background-color: transparent;
+                color: $cell-text-color;
                 z-index: 1;
                 width: 100%;
                 height: 100%;
